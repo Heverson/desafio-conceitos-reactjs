@@ -37,3 +37,43 @@ div li button {
   margin: 0 15px;
   background: #ca4949;
 }
+
+.main{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.form-project{
+  flex:2;
+  padding:5px 20px;
+}
+.form-project div{
+  margin: 5px 0;
+}
+.form-project div span{
+  font-size: 14px;
+}
+.list-project{
+  flex:1;
+  padding:5px 20px;
+}
+.list-project li{
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 5px 0;
+}
+.list-project li span{
+  font-size: 14px;
+}
+input[type=text]{
+    width:100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+input[type=submit], button{
+  padding:10px
+}
